@@ -1,0 +1,17 @@
+let titleScreen = document.getElementById("titleScreen");
+let game = document.getElementById("game");
+let ctxTitle = titleScreen.getContext("2d");
+let ctxGame = game.getContext("2d");
+let player = 1;
+let paddle1Pos;
+let paddle2Pos;
+let score1 = 0;
+let score2 = 0;
+let move1;
+let move2;
+let ballX;
+let ballY;
+let ballSpeedX;
+let ballSpeedY;
+let keyState = {};
+let collided;
